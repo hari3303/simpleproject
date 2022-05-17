@@ -3,7 +3,7 @@
 <div class="stuff">
   <br><br>
   <h1>Resume</h1>
-  <h2>Emily</h2>
+  <h2>hari</h2>
   <hr />
   <br>
   <p class="head">Interests</p>
