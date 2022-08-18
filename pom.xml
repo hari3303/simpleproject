@@ -94,7 +94,7 @@
 		
 	</dependencies>
 	
-	<distributionManagement>
+	
 	
 	    
 	<distributionManagement>
@@ -114,7 +114,7 @@
 	</distributionManagement>    
 	    
 	    
-	</distributionManagement>
+	
 	
 	<build>
 		<finalName>maven-web-application</finalName>
