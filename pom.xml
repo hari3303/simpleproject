@@ -96,12 +96,22 @@
 	
 	<distributionManagement>
 	
+	    
+	<distributionManagement>
+	
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://54.158.197.29:8081/repository/myfirstproject/</url>
+	      <url>http://54.158.197.29:8081/repository/myfirst-re/</url>
 	    </repository>
 	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://54.158.197.29:8081/repository/myfirst-snap/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>    
 	    
 	    
 	</distributionManagement>
