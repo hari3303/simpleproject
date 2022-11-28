@@ -83,7 +83,6 @@
     </dependencies>
 	<build>
 
-          <finalName>maven-web-application</finalName>
 
 
       <plugins>
