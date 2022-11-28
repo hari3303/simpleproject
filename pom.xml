@@ -15,16 +15,15 @@
 		<name>Mithun Technologies</name>
 		<url>http://mithuntechnologies.com/</url>
 	</organization>
-	
-	
+
 	<properties>
 		<jdk.version>1.8</jdk.version>
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://54.221.24.218:9000/</sonar.host.url>
+		<sonar.host.url>http://18.138.81.149:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>hari2707</sonar.password> 
+		<sonar.password>passw0rd</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -94,27 +93,21 @@
 		
 	</dependencies>
 	
-	
-	
-	    
 	<distributionManagement>
 	
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://54.158.197.29:8081/repository/myfirst-re/</url>
+	      <url>http://54.255.174.111:8081/repository/flipkart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.158.197.29:8081/repository/myfirst-snap/</url>
+	      <url>http://54.255.174.111:8081/repository/flipkart-snapshot/</url>
 	    </snapshotRepository>
 	    
-	</distributionManagement>    
-	    
-	    
-	
+	</distributionManagement>
 	
 	<build>
 		<finalName>maven-web-application</finalName>
@@ -153,10 +146,6 @@
 					<wtpContextName>maven-web-application</wtpContextName>
 				</configuration>
 			</plugin>
-			
-			
-        
- 
 			
 </plugins>
 	</build>
