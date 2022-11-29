@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: mavenwebappcontainer
-          image: dockerhandson/maven-web-application:TAG
+          image: haribabu3303/test:v3
           ports:
             - containerPort: 8080
 ---
