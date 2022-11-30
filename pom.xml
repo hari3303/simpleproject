@@ -84,6 +84,24 @@
 		</dependency>
 
     </dependencies>
+	<distributionManagement>
+
+    <repository>
+	      <id>nexus</id>
+	      <name>admin</name>
+	      <url>http://3.81.75.188:8081/repository/hari-repo/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>admin</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://3.81.75.188:8081/repository/hari-repo/</url>
+	    </snapshotRepository>
+
+    </distributionManagement>
+	
+	
+	
 	<build>
 
 
