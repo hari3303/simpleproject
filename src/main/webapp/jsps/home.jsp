@@ -9,7 +9,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">welcome hari </h1>
+<h1 align="center">welcome to qa </h1>
 <h1 align="center"> you completed git maven jenkins tomcat integration and automated </h1>
 <hr>
 <br>
